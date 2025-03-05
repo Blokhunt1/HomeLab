@@ -1,6 +1,12 @@
 # HomeLab
 Full automation of my homelab setup
 
+# Requirements
+Docker installed
+Virtual Box installed (if you test)
+Active Internet Connection
 
-# Useful
-https://tailscale.com/enterprise
+# Setup
+Just run the Setup.ps1 and sitback and relax
+
+# Useful Tailscale
