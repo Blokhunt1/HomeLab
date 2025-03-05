@@ -1,0 +1,23 @@
+[global]
+fqdn = "pve.example.com"
+keyboard = "en-us"
+mailto = "it@blok-nijmegen.nl"
+country = "nl"
+timezone = "Europe/Vienna"
+root_password = "yourpassword"
+reboot_on_error = false
+
+[network]
+source = "from-dhcp"
+
+[disk-setup]
+filesystem = "zfs"
+zfs.raid = "raid0"
+filter.DEVTYPE = "disk"
+
+[post-installation-webhook]
+url = "http://192.168.2.16:8080"
+
+[first-boot]
+source = "from-iso"
+ordering = "fully-up"
